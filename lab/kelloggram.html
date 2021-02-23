@@ -24,7 +24,7 @@
     <!-- New post form -->
     <div>
       <form class="w-full mt-8">
-        <input type="text" id="username" name="username" placeholder="Username" class="my-2 p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500">
+        <!-- <input type="text" id="username" name="username" placeholder="Username" class="my-2 p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500"> -->
         <input type="text" id="image-url" name="image-url" placeholder="Image URL" class="my-2 p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500">
         <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl">Post</button>
       </form>
@@ -46,7 +46,14 @@
 
   <script>
     // Your web app's Firebase configuration
-    var firebaseConfig = {}
+    var firebaseConfig = {
+      apiKey: "AIzaSyDcq5xpwPvJVN_AXzG1JrwAM4dF3FiyLuY",
+      authDomain: "week7-1283a.firebaseapp.com",
+      projectId: "week7-1283a",
+      storageBucket: "week7-1283a.appspot.com",
+      messagingSenderId: "618118341479",
+      appId: "1:618118341479:web:ed89f9bc448f61078d05c2"
+    }
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
   </script>

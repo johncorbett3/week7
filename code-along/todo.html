@@ -27,21 +27,25 @@
   <!-- Put the Firebase config here -->
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
-
   <!-- TODO: Add SDKs for Firebase products that you want to use
       https://firebase.google.com/docs/web/setup#available-libraries -->
   <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
-
   <!-- FirebaseUI Auth -->
   <!-- https://firebaseopensource.com/projects/firebase/firebaseui-web/ -->
   <script src="https://www.gstatic.com/firebasejs/ui/4.7.3/firebase-ui-auth.js"></script>
-
   <script>
     // Your web app's Firebase configuration
-    var firebaseConfig = {}
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+  var firebaseConfig = {
+    apiKey: "AIzaSyDcq5xpwPvJVN_AXzG1JrwAM4dF3FiyLuY",
+    authDomain: "week7-1283a.firebaseapp.com",
+    projectId: "week7-1283a",
+    storageBucket: "week7-1283a.appspot.com",
+    messagingSenderId: "618118341479",
+    appId: "1:618118341479:web:ed89f9bc448f61078d05c2"
+  };
+   // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
   </script>
   <script src="todo.js"></script>
 </body>
